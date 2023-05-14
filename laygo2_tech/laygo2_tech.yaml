@@ -1,0 +1,1257 @@
+grids:
+  GF180_microtemplates_dense:
+  # scale = 0.1
+    placement_basic:
+      horizontal:
+        elements:
+        - 0
+        scope:
+        - 0
+        - 56
+      type: placement
+      vertical:
+        elements:
+        - 0
+        scope:
+        - 0
+        - 90
+    routing_12_cmos:
+      horizontal:
+        elements:
+        - 0
+        - 314 # 314
+        - 426 # 112
+        - 616 # 190
+        - 784 # 168
+        - 952 # 168
+        - 1142 # 190
+        - 1254
+        extension:
+        - 88
+        - 44
+        - 44
+        - 44
+        - 44
+        - 44
+        - 44
+        - 44
+        extension0:
+        #  TODO
+        - 52
+        layer:
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        pin_layer:
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        scope:
+        - 0
+        - 1568
+        width:
+        - 168
+        - 56
+        - 56
+        - 56
+        - 56
+        - 56
+        - 56
+        - 56
+        ycolor:
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+      primary_grid: horizontal
+      type: routing
+      vertical:
+        elements:
+        - 0
+        extension:
+        - 29
+        extension0:
+        - 34
+        layer:
+        - - metal1
+          - drawing
+        pin_layer:
+        - - metal1
+          - pin
+        scope:
+        - 0
+        - 180 #43
+        width:
+        - 88
+        xcolor:
+        - not MPT
+      via:
+        map:
+        - - via_M1_M2_1
+          - via_M1_M2_0
+          - via_M1_M2_0
+          - via_M1_M2_0
+          - via_M1_M2_0
+          - via_M1_M2_0
+          - via_M1_M2_0
+          - via_M1_M2_0
+    routing_23_basic:
+      horizontal:
+        elements:
+        - 0
+        extension:
+        - 44
+        extension0:
+        - 52
+        layer:
+        - - metal2
+          - drawing
+        pin_layer:
+        - - metal2
+          - pin
+        scope:
+        - 0
+        - 112
+        width:
+        - 56
+        ycolor:
+        - not MPT
+      primary_grid: horizontal
+      type: routing
+      vertical:
+        elements:
+        - 0
+        extension:
+        - 29
+        extension0:
+        - 34
+        layer:
+        - - M3
+          - drawing
+        pin_layer:
+        - - M3
+          - pin
+        scope:
+        - 0
+        - 180 #43
+        width:
+        - 88
+        xcolor:
+        - not MPT
+      via:
+        map:
+        - - via_M2_M3_0
+    routing_23_cmos:
+      horizontal:
+        elements:
+        - 0
+        - 314 # 314
+        - 426 # 112
+        - 616 # 190
+        - 784 # 168
+        - 952 # 168
+        - 1142 # 190
+        - 1254
+        extension:
+        - 88
+        - 44
+        - 44
+        - 44
+        - 44
+        - 44
+        - 44
+        - 44
+        extension0:
+        #  TODO
+        - 52
+        layer:
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        pin_layer:
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        scope:
+        - 0
+        - 1568
+        width:
+        - 168
+        - 56
+        - 56
+        - 56
+        - 56
+        - 56
+        - 56
+        - 56
+        ycolor:
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+      primary_grid: horizontal
+      type: routing
+      vertical:
+        elements:
+        - 0
+        extension:
+        - 29
+        extension0:
+        - 34
+        layer:
+        - - metal3
+          - drawing
+        pin_layer:
+        - - metal3
+          - pin
+        scope:
+        - 0
+        - 180 #43
+        width:
+        - 88
+        xcolor:
+        - not MPT
+      via:
+        map:
+        - - via_M2_M3_1 
+          - via_M2_M3_0 
+          - via_M2_M3_0
+          - via_M2_M3_0
+          - via_M2_M3_0
+          - via_M2_M3_0
+          - via_M2_M3_0
+          - via_M2_M3_0
+    routing_23_cmos:
+      horizontal:
+        elements:
+        - 0
+        - 314 # 314
+        - 426 # 112
+        - 616 # 190
+        - 784 # 168
+        - 952 # 168
+        - 1142 # 190
+        - 1254
+        extension:
+        - 88
+        - 44
+        - 44
+        - 44
+        - 44
+        - 44
+        - 44
+        - 44
+        extension0:
+        #  TODO
+        - 52
+        layer:
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        - - metal2
+          - drawing
+        pin_layer:
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        - - metal2
+          - pin
+        scope:
+        - 0
+        - 1568
+        width:
+        - 168
+        - 56
+        - 56
+        - 56
+        - 56
+        - 56
+        - 56
+        - 56
+        ycolor:
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+        - not MPT
+      primary_grid: horizontal
+      type: routing
+      vertical:
+        elements:
+        - 0
+        extension:
+        - 29
+        extension0:
+        - 34
+        layer:
+        - - metal3
+          - drawing
+        pin_layer:
+        - - metal3
+          - pin
+        scope:
+        - 0
+        - 180 #43
+        width:
+        - 210
+        xcolor:
+        - not MPT
+      via:
+        map:
+        - - via_M2_M3_3 
+          - via_M2_M3_2 
+          - via_M2_M3_2
+          - via_M2_M3_2
+          - via_M2_M3_2
+          - via_M2_M3_2
+          - via_M2_M3_2
+          - via_M2_M3_2
+    routing_34_basic:
+      horizontal:
+        elements:
+        - 0
+        extension:
+        - 44
+        extension0:
+        - 52
+        layer:
+        - - metal4
+          - drawing
+        pin_layer:
+        - - metal4
+          - pin
+        scope:
+        - 0
+        - 112
+        width:
+        - 56
+        ycolor:
+        - not MPT
+      primary_grid: horizontal
+      type: routing
+      vertical:
+        elements:
+        - 0
+        extension:
+        - 29
+        extension0:
+        - 34
+        layer:
+        - - metal3
+          - drawing
+        pin_layer:
+        - - metal3
+          - pin
+        scope:
+        - 0
+        - 180 #43
+        width:
+        - 88
+        xcolor:
+        - not MPT
+      via:
+        map:
+        - - via_M3_M4_0
+    routing_45_basic:
+      horizontal:
+        elements:
+        - 0
+        extension:
+        - 44
+        extension0:
+        - 52
+        layer:
+        - - metal4
+          - drawing
+        pin_layer:
+        - - metal4
+          - pin
+        scope:
+        - 0
+        - 112
+        width:
+        - 56
+        ycolor:
+        - not MPT
+      primary_grid: horizontal
+      type: routing
+      vertical:
+        elements:
+        - 0
+        extension:
+        - 29
+        extension0:
+        - 34
+        layer:
+        - - metal5
+          - drawing
+        pin_layer:
+        - - metal5
+          - pin
+        scope:
+        - 0
+        - 180 #43
+        width:
+        - 88
+        xcolor:
+        - not MPT
+      via:
+        map:
+        - - via_M4_M5_0
+templates:
+  GF180_microtemplates_dense:
+    nmos180_fast_boundary:
+      pins: {}
+      unit_size:
+      - 180 #43
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 180 #- 43
+        - 784
+    nmos180_fast_space:
+      pins: {}
+      unit_size:
+    #  - 43
+      - 180
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 180 #- 43
+        - 784
+    nmos180_fast_space_1x:
+      pins: {}
+      unit_size:
+    #  - 43
+      - 180
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 180 #- 43
+        - 784
+    nmos180_fast_space_2x:
+      pins: {}
+      unit_size:
+    #  - 86
+      - 360
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 360 #- 86
+        - 784
+    pmos180_fast_boundary:
+      pins: {}
+      unit_size:
+      - 180 #- 43
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 180 #- 43
+        - 784
+    pmos180_fast_space:
+      pins: {}
+      unit_size:
+      - 180 #- 43
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 180 #- 43
+        - 784
+    pmos180_fast_space_1x:
+      pins: {}
+      unit_size:
+      - 180 #- 43
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 180 #- 43
+        - 784
+    pmos180_fast_space_2x:
+      pins: {}
+      unit_size:
+      - 360 #- 43
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 360 #- 43
+        - 784
+    nmos180_fast_center_nf2:
+      pins:
+        D0:
+          layer:
+          - metal1
+          - pin
+          netname: D0
+          xy:
+          - - 136 
+            - 280 
+          - - 224
+            - 470 
+        G0:
+          layer:
+          - metal1
+          - pin
+          netname: G0
+          xy:
+          - - 136
+            - 560
+          - - 224
+            - 670 
+        S0:
+          layer:
+          - metal1
+          - pin
+          netname: S0
+          xy:
+          - - -44
+            - 280
+          - - 44
+            - 470 
+        S1:
+          layer:
+          - metal1
+          - pin
+          netname: S1
+          xy:
+          - - 316 
+            - 280
+          - - 404 
+            - 470 
+      unit_size:
+      - 360 #86
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 360 #86
+        - 784
+    pmos180_fast_center_nf2:
+      pins:
+        D0:
+          layer:
+          - metal1
+          - pin
+          netname: D0
+          xy:
+          - - 136 
+            - 280 
+          - - 224
+            - 470 
+        G0:
+          layer:
+          - metal1
+          - pin
+          netname: G0
+          xy:
+          - - 136
+            - 560
+          - - 224
+            - 670 
+        S0:
+          layer:
+          - metal1
+          - pin
+          netname: S0
+          xy:
+          - - -44
+            - 280
+          - - 44
+            - 470 
+        S1:
+          layer:
+          - metal1
+          - pin
+          netname: S1
+          xy:
+          - - 316 
+            - 280
+          - - 404 
+            - 470 
+      unit_size:
+      - 360 #86
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 360 #86
+        - 784
+    nmos180_fast_center_nf1_left:
+      pins:
+        G0:
+          layer:
+          - metal1
+          - pin
+          netname: G0
+          xy:
+          - - -44
+            - 560 #224
+          - - 44
+            - 670 #260
+        S0:
+          layer:
+          - metal1
+          - pin
+          netname: S0
+          xy:
+          - - -44
+            - 280
+          - - 44
+            - 470
+        D0:
+          layer:
+          - metal1
+          - pin
+          netname: D0
+          xy:
+          - - 136 
+            - 280 
+          - - 224
+            - 470
+      unit_size:
+      - 180 #86
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 180 #86
+        - 784           
+    nmos180_fast_center_nf1_right:
+      pins:
+        G0:
+          layer:
+          - metal1
+          - pin
+          netname: G0
+          xy:
+          - - 316
+            - 560 #224
+          - - 404
+            - 670 #260
+        S0:
+          layer:
+          - metal1
+          - pin
+          netname: S0
+          xy:
+          - - -44
+            - 280
+          - - 44
+            - 470
+        D0:
+          layer:
+          - metal1
+          - pin
+          netname: D0
+          xy:
+          - - 136 
+            - 280 
+          - - 224
+            - 470 
+      unit_size:
+      - 180 #86
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 180 #86
+        - 784
+    pmos180_fast_center_nf1_left:
+      pins:
+        G0:
+          layer:
+          - metal1
+          - pin
+          netname: G0
+          xy:
+          - - -44
+            - 560 #224
+          - - 44
+            - 670 #260
+        S0:
+          layer:
+          - metal1
+          - pin
+          netname: S0
+          xy:
+          - - -44
+            - 280
+          - - 44
+            - 470 
+        D0:
+          layer:
+          - metal1
+          - pin
+          netname: D0
+          xy:
+          - - 136 
+            - 280 
+          - - 224
+            - 470 
+      unit_size:
+      - 180 #86
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 180 #86
+        - 784           
+    pmos180_fast_center_nf1_right:
+      pins:
+        G0:
+          layer:
+          - metal1
+          - pin
+          netname: G0
+          xy:
+          - - 316
+            - 560 #224
+          - - 404
+            - 670 #260
+        S0:
+          layer:
+          - metal1
+          - pin
+          netname: S0
+          xy:
+          - - -44
+            - 280
+          - - 44
+            - 470
+        D0:
+          layer:
+          - metal1
+          - pin
+          netname: D0
+          xy:
+          - - 136 
+            - 280 
+          - - 224
+            - 470 
+      unit_size:
+      - 180 #86
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 180 #86
+        - 784                  
+    nmos180_fast_center_2stack:
+      pins:
+        D0:
+          layer:
+          - metal1
+          - pin
+          netname: D0
+          xy:
+          - - 316 
+            - 280
+          - - 404 
+            - 470 
+        G0:
+          layer:
+          - metal1
+          - pin
+          netname: G0
+          xy:
+          - - -44
+            - 560 #224
+          - - 44
+            - 670 #260
+        G1:
+          layer:
+          - metal1
+          - pin
+          netname: G1
+          xy:
+          - - 316
+            - 560 #224
+          - - 404
+            - 670 #260
+        S0:
+          layer:
+          - metal1
+          - pin
+          netname: S0
+          xy:
+          - - -44
+            - 280
+          - - 44
+            - 470 
+      unit_size:
+      - 360
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 360
+        - 784
+    pmos180_fast_center_2stack:
+      pins:
+        D0:
+          layer:
+          - metal1
+          - pin
+          netname: D0
+          xy:
+          - - 316 
+            - 280
+          - - 404 
+            - 470 
+        G0:
+          layer:
+          - metal1
+          - pin
+          netname: G0
+          xy:
+          - - -44
+            - 560 #224
+          - - 44
+            - 670 #260
+        G1:
+          layer:
+          - metal1
+          - pin
+          netname: G1
+          xy:
+          - - 316
+            - 560 #224
+          - - 404
+            - 670 #260
+        S0:
+          layer:
+          - metal1
+          - pin
+          netname: S0
+          xy:
+          - - -44
+            - 280
+          - - 44
+            - 470 
+      unit_size:
+      - 360
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 360
+        - 784
+    via_M1_M2_0:
+      unit_size:
+      - 0
+      - 0
+      xy:
+      - - 0
+        - 0
+      - - 0
+        - 0
+    via_M1_M2_1:
+      unit_size:
+      - 0
+      - 0
+      xy:
+      - - 0
+        - 0
+      - - 0
+        - 0
+    via_M2_M3_0:
+      unit_size:
+      - 0
+      - 0
+      xy:
+      - - 0
+        - 0
+      - - 0
+        - 0
+    via_M2_M3_1:
+      unit_size:
+      - 0
+      - 0
+      xy:
+      - - 0
+        - 0
+      - - 0
+        - 0
+    via_M3_M4_0:
+      unit_size:
+      - 0
+      - 0
+      xy:
+      - - 0
+        - 0
+      - - 0
+        - 0
+  #TODO make dmy layout for gf180
+    nmos180_fast_dmy_nf2:
+      pins:
+        D0:
+          layer:
+          - metal1
+          - pin
+          netname: D0
+          xy:
+          - - 136 
+            - 280 
+          - - 224
+            - 470 
+        G0:
+          layer:
+          - metal1
+          - pin
+          netname: G0
+          xy:
+          - - 136
+            - 560
+          - - 224
+            - 670 
+        S0:
+          layer:
+          - metal1
+          - pin
+          netname: S0
+          xy:
+          - - -44
+            - 280
+          - - 44
+            - 470 
+        S1:
+          layer:
+          - metal1
+          - pin
+          netname: S1
+          xy:
+          - - 316 
+            - 280
+          - - 404 
+            - 470 
+      unit_size:
+      - 360 #86
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 360 #86
+        - 784
+    nmos180_fast_left:
+      pins: {}
+      unit_size:
+      - 0
+      - 0
+      xy:
+      - - 0
+        - 0
+      - - 0
+        - 0
+    nmos180_fast_right:
+      pins: {}
+      unit_size:
+      - 0
+      - 0
+      xy:
+      - - 0
+        - 0
+      - - 0
+        - 0
+    pmos180_fast_dmy_nf2:
+      pins:
+        D0:
+          layer:
+          - metal1
+          - pin
+          netname: D0
+          xy:
+          - - 136 
+            - 280 
+          - - 224
+            - 470 
+        G0:
+          layer:
+          - metal1
+          - pin
+          netname: G0
+          xy:
+          - - 136
+            - 560
+          - - 224
+            - 670 
+        S0:
+          layer:
+          - metal1
+          - pin
+          netname: S0
+          xy:
+          - - -44
+            - 280
+          - - 44
+            - 470 
+        S1:
+          layer:
+          - metal1
+          - pin
+          netname: S1
+          xy:
+          - - 316 
+            - 280
+          - - 404 
+            - 470 
+      unit_size:
+      - 360 #86
+      - 784
+      xy:
+      - - 0
+        - 0
+      - - 360 #86
+        - 784
+    pmos13_fast_left:
+      pins: {}
+      unit_size:
+      - 0
+      - 0
+      xy:
+      - - 0
+        - 0
+      - - 0
+        - 0
+    pmos13_fast_right:
+      pins: {}
+      unit_size:
+      - 0
+      - 0
+      xy:
+      - - 0
+        - 0
+      - - 0
+        - 0
+  #TODO set size of tap to 144 like mos_center
+    ntap_fast_center_nf2_v2:
+      pins:
+        TAP0:
+          layer:
+          - metal1
+          - pin
+          netname: TAP0
+          xy:
+          - - -10
+            - 216 #152
+          - - 10
+            - 288 #220
+        TAP1:
+          layer:
+          - metal1
+          - pin
+          netname: TAP1
+          xy:
+          - - 33
+            - 216 #152
+          - - 53
+            - 288 #220
+        TAP2:
+          layer:
+          - metal1
+          - pin
+          netname: TAP2
+          xy:
+          - - 76
+            - 216 #152
+          - - 96
+            - 288 #220
+      unit_size:
+      - 144
+      - 504
+      xy:
+      - - 0
+        - 0
+      - - 144
+        - 504
+    ptap_fast_center_nf2_v2:
+      pins:
+        TAP0:
+          layer:
+          - metal1
+          - pin
+          netname: TAP0
+          xy:
+          - - -15
+            - 144 #122
+          - - 15
+            - 252 #206
+        TAP1:
+          layer:
+          - metal1
+          - pin
+          netname: TAP1
+          xy:
+          - - 57
+            - 144 #122
+          - - 87
+            - 252 #206
+        TAP2:
+          layer:
+          - metal1
+          - pin
+          netname: TAP2
+          xy:
+          - - 129
+            - 144 #122
+          - - 159
+            - 252 #206
+      unit_size:
+      - 144
+      - 504
+      xy:
+      - - 0
+        - 0
+      - - 144
+        - 504
+    ntap_fast_boundary:
+      pins: {}
+      unit_size:
+      - 72 #43
+      - 504
+      xy:
+      - - 0
+        - 0
+      - - 72 #43
+        - 504
+    ntap_fast_left:
+      pins: {}
+      unit_size:
+      - 72 #43
+      - 504
+      xy:
+      - - 0
+        - 0
+      - - 72 #43
+        - 504
+    ntap_fast_right:
+      pins: {}
+      unit_size:
+      - 72 #43
+      - 504
+      xy:
+      - - 0
+        - 0
+      - - 72 #43
+        - 504
+    ptap_fast_boundary:
+      pins: {}
+      unit_size:
+      - 72 #43
+      - 504
+      xy:
+      - - 0
+        - 0
+      - - 72 #43
+        - 504
+    ptap_fast_left:
+      pins: {}
+      unit_size:
+      - 72 #43
+      - 504
+      xy:
+      - - 0
+        - 0
+      - - 72 #43
+        - 504
+    ptap_fast_right:
+      pins: {}
+      unit_size:
+      - 72 #43
+      - 504
+      xy:
+      - - 0
+        - 0
+      - - 72 #43
+        - 504
