@@ -28,7 +28,8 @@ for f in "${ln_files[@]}"; do
     ln -s ${ROOT_DIR}/${f} .
     git add -f ${f}
 done
-
+# laygo2_technolgy files; symlink
+ln -s ${TECH_DIR}/laygo2_tech . 
 # setup .ipython
 export CUR_DIR=".ipython/profile_default"
 mkdir -p ${CUR_DIR}

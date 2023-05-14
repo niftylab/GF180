@@ -281,7 +281,7 @@ grids:
           - via_M2_M3_0
           - via_M2_M3_0
           - via_M2_M3_0
-    routing_23_cmos:
+    routing_23_cmos_thick:
       horizontal:
         elements:
         - 0
@@ -964,7 +964,34 @@ templates:
         - 0
       - - 0
         - 0
+    via_M2_M3_2:
+      unit_size:
+      - 0
+      - 0
+      xy:
+      - - 0
+        - 0
+      - - 0
+        - 0
+    via_M2_M3_3:
+      unit_size:
+      - 0
+      - 0
+      xy:
+      - - 0
+        - 0
+      - - 0
+        - 0
     via_M3_M4_0:
+      unit_size:
+      - 0
+      - 0
+      xy:
+      - - 0
+        - 0
+      - - 0
+        - 0
+    via_M4_M5_0:
       unit_size:
       - 0
       - 0
