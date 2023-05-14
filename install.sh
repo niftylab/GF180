@@ -4,13 +4,13 @@ export TECH_DIR="GF180"
 export ROOT_DIR="${TECH_DIR}/workspace_setup"
 
 # files to copy from workspace_setup
- cp_files=(".maginit_personal"
+ cp_files=( ".maginit_personal"
+            ".bashrc_bag"
             ".bashrc_personal")
 
 # files to link from workspace_setup
 ln_files=( ".maginit"
            ".bashrc"
-           ".bashrc_bag"
            ".gitignore"
            ".spiceinit"
            "bag_startup.py"

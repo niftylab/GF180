@@ -1,2 +1,2 @@
-source $PDK_ROOT/gf180mcuC/libs.tech/magic/gf180mcuC.magicrc
+source $CAD_ROOT/magic/sys/gf180mcuC.magicrc
 source .maginit_personal
