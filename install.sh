@@ -44,12 +44,13 @@ git add -f ${CUR_DIR}/ipython_config.py
 # # setup cds.lib
 # echo 'INCLUDE $BAG_WORK_DIR/cds.lib.core' > cds.lib
 
+# link LVS setup script
+ln -s ${ROOT_DIR}/TCL_scripts/lvs_gf180mcuC_setup.tcl TCL_scripts/lvs_setup.tcl
+git add TCL_scripts/lvs_setup.tcl
 # link BAG run scripts
-# ln -s BAG_framework/run_scripts/start_bag_ICADV12d3.il start_bag.il
 # ln -s BAG_framework/run_scripts/start_bag.sh .
 # ln -s BAG_framework/run_scripts/virt_server.sh .
 # ln -s BAG_framework/run_scripts/setup_submodules.py .
-# git add start_bag.il
 # git add start_bag.sh
 # git add virt_server.sh
 # git add setup_submodules.py
