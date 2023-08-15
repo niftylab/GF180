@@ -1,0 +1,76 @@
+logic_generated:
+  dff_1x:
+    bbox:
+    - - 0
+      - 0
+    - - 2700
+      - 1568
+    cellname: dff_1x
+    libname: logic_generated
+    pins:
+      CLK:
+        layer:
+        - metal3
+        - pin
+        name: CLK
+        netname: CLK
+        xy:
+        - - 676
+          - 890
+        - - 767
+          - 952
+      I:
+        layer:
+        - metal3
+        - pin
+        name: I
+        netname: I
+        xy:
+        - - 316
+          - 616
+        - - 400
+          - 950
+      O:
+        layer:
+        - metal3
+        - pin
+        name: O
+        netname: O
+        xy:
+        - - 2116
+          - 420
+        - - 2204
+          - 1140
+      O_bar:
+        layer:
+        - metal3
+        - pin
+        name: O_bar
+        netname: O_bar
+        xy:
+        - - 2296
+          - 420
+        - - 2384
+          - 1140
+      VDD:
+        layer:
+        - metal2
+        - pin
+        name: VDD
+        netname: VDD
+        xy:
+        - - 0
+          - 1484
+        - - 2570
+          - 1652
+      VSS:
+        layer:
+        - metal2
+        - pin
+        name: VSS
+        netname: VSS
+        xy:
+        - - 0
+          - -84
+        - - 2570
+          - 84

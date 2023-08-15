@@ -44,6 +44,10 @@ git add -f ${CUR_DIR}/ipython_config.py
 # # setup cds.lib
 # echo 'INCLUDE $BAG_WORK_DIR/cds.lib.core' > cds.lib
 
+# copy custom logic cell (DFF_1x)
+cp ${ROOT_DIR}/custom_cells/logic_generated_dff_1x.mag ./magic_layout/logic_generated
+cp ${ROOT_DIR}/custom_cells/logic_generated_templates.yaml ./laygo2_example/logic
+
 # link LVS setup script
 ln -s ${ROOT_DIR}/TCL_scripts/lvs_gf180mcuC_setup.tcl TCL_scripts/lvs_setup.tcl
 git add TCL_scripts/lvs_setup.tcl

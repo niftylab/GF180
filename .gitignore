@@ -173,15 +173,6 @@ calibreview.setup
 .preRcx.Last.State
 .qrc.Last.state
 
-# laygo files
-adc_sar*
-laygo_working
-*.gds
-*.tcl
-*.yaml
-!laygo2_tech/*.yaml
-serdes_generated*
-
 # verilog_to_laygo
 parsetab.py
 
